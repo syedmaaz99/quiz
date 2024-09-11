@@ -30,13 +30,13 @@ const QuizInput = ({
   const [deleteField, setDeleteField] = useState(false);
   return (
     <div className="m-2 my-0">
-      <div className="flex flex-row items-end justify-between ">
+      <div className="flex flex-row items-end justify-between  ">
      {!basic  &&  <div class="w-[70%] h-[45px] flex rounded-lg shadow-sm">
           {showExplain && (
             <input
               type="text"
               placeholder="Type information here"
-              className="py-1 px-3 my-1 h-[34px]  border-[1px] border-solid border-blue-300  pe-11 block w-full outline-none rounded-md text-sm z-10"
+              className="py-1 px-3 bg-transparent my-1 h-[34px]  border-[1px] border-solid border-blue-300  pe-11 block w-full outline-none rounded-md text-sm z-10"
             />
           )}
         </div>}
@@ -75,7 +75,7 @@ const QuizInput = ({
             type="text"
             name="hs-input-with-add-on-url-radio"
             id="hs-input-with-add-on-url-radio"
-            class="py-3 px-4 pe-11 block w-full   rounded-e-lg text-sm border-none outline-none"
+            class="py-3 bg-transparent px-4 pe-11 block w-full   rounded-e-lg text-sm border-none outline-none"
             placeholder={placeholder}
           />
           {correctOptions && (

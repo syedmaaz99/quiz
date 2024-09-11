@@ -118,6 +118,14 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
             >
               Settings
             </li>
+            <li
+              className={`text-center hover:bg-[#799BFF] p-4 text-[17px] ${
+                location.pathname.includes("profile") ? "bg-[#799BFF]" : ""
+              }`}
+              onClick={() => navigate("/profile")}
+            >
+              profile
+            </li>
           </ul>
         </nav>
       </div>

@@ -7,7 +7,7 @@ h1 {
 }
 
 .container {
-    background-color: white;
+    /* background-color: white; */
 }
 
 .float-label-input {
@@ -17,5 +17,5 @@ h1 {
 .float-label-input:focus-within label,
 .float-label-input input:not(:placeholder-shown)+label {
     transform: translateY(-1.5rem) scale(0.75);
-    background-color: white;
+    /* background-color: white; */
 }

@@ -14,7 +14,7 @@ const CreateScenarioQuiz = () => {
   const navigate = useNavigate();
   return (
     <DefaultLayout>
-      <div className="container h-full w-full space-y-4">
+      <div className="container h-full w-full space-y-4 bg-transparent">
         {/* First row: 2 columns with width 6 each */}
         <div className="w-full grid grid-cols-2 gap-4">
           <div className="col-span-1 w-full flex flex-row">

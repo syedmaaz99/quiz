@@ -15,7 +15,7 @@ const Quizzes = () => {
   const navigate = useNavigate()
   return (
     <DefaultLayout>
-      <div className="container h-full w-full space-y-4">
+      <div className="container h-full w-full space-y-4 bg-transparent">
         {/* First row: 2 columns with width 6 each */}
         <div className="w-full grid grid-cols-2 gap-4">
           <div className="col-span-1 w-full flex flex-row">
@@ -27,7 +27,7 @@ const Quizzes = () => {
             </div>
             <div class="flex justify-start pt-2 relative mx-auto text-gray-600 ">
               <input
-                class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+                class="border-2 border-gray-300  h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
                 type="search"
                 name="search"
                 placeholder="Search"

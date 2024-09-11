@@ -10,7 +10,7 @@ const DefaultLayout = ({ children }) => {
     <div className="dark:bg-boxdark-2 dark:text-bodydark ">
       {/* <!-- ===== Page Wrapper Start ===== --> */}
       {/* <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} /> */}
-      <div className="flex h-screen overflow-hidden">
+      <div className="flex h-screen overflow-hidden bg-slate-100">
         {/* <!-- ===== Sidebar Start ===== --> */}
         <Sidebar sidebarOpen={false} setSidebarOpen={setSidebarOpen} />
         {/* <!-- ===== Sidebar End ===== --> */}
